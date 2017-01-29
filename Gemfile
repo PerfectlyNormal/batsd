@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem 'eventmachine', '~>1.0.0.rc.4'
+gem 'eventmachine', '~> 1.2.0'
 gem 'redis', "~> 3.0.2"
 if RUBY_PLATFORM == 'java'
   gem 'json-jruby'
